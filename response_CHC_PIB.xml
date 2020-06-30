@@ -1,0 +1,219 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <env:Header/>
+   <env:Body>
+      <m:getAggMotorQuoteResponse xmlns:m="http://www.esure.com/SOA/ibisservice">
+         <result soapenc:arrayType="java:AggMotorResponse[1]" xmlns:java="java:com.esure.busservices.cdm.aggregator.response">
+            <AggMotorResponse>
+               <brand>EM</brand>
+               <quoteReference>1160155897</quoteReference>
+               <coverType>COM</coverType>
+               <coverTypeReq>COM</coverTypeReq>
+               <premiums>
+                  <noOfInstallments>10</noOfInstallments>
+                  <apr>28.8</apr>
+                  <options soapenc:arrayType="java:Premium[20]">
+                     <Premium>
+                        <premiumDesc>MOT+PNCD</premiumDesc>
+                        <basePremium>294.78</basePremium>
+                        <deposit>51.61</deposit>
+                        <installmentPremium>27.26</installmentPremium>
+                        <totalPremium>324.21</totalPremium>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>MOT+PNCD+MLP</premiumDesc>
+                        <basePremium>325.77</basePremium>
+                        <deposit>57.09</deposit>
+                        <installmentPremium>30.12</installmentPremium>
+                        <totalPremium>358.29</totalPremium>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>MOT+PNCD+MLP+BRK</premiumDesc>
+                        <basePremium>393.88</basePremium>
+                        <deposit>69.0</deposit>
+                        <installmentPremium>36.42</installmentPremium>
+                        <totalPremium>433.2</totalPremium>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>MOT+PNCD+MLP+BRK+CHC</premiumDesc>
+                        <basePremium>424.88</basePremium>
+                        <deposit>74.39</deposit>
+                        <installmentPremium>39.29</installmentPremium>
+                        <totalPremium>467.29</totalPremium>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>MOT+PNCD+MLP+BRK+CHC+PIB</premiumDesc>
+                        <basePremium>455.88</basePremium>
+                        <deposit>79.79</deposit>
+                        <installmentPremium>42.16</installmentPremium>
+                        <totalPremium>501.39</totalPremium>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>MOT+PNCD+MLP+BRK+PIB</premiumDesc>
+                        <basePremium>424.88</basePremium>
+                        <deposit>74.39</deposit>
+                        <installmentPremium>39.29</installmentPremium>
+                        <totalPremium>467.29</totalPremium>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>MOT+PNCD+MLP+PIB</premiumDesc>
+                        <basePremium>356.77</basePremium>
+                        <deposit>62.49</deposit>
+                        <installmentPremium>32.99</installmentPremium>
+                        <totalPremium>392.39</totalPremium>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>MOT+PNCD+MLP+CHC</premiumDesc>
+                        <basePremium>356.77</basePremium>
+                        <deposit>62.49</deposit>
+                        <installmentPremium>32.99</installmentPremium>
+                        <totalPremium>392.39</totalPremium>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>MOT+PNCD+MLP+CHC+PIB</premiumDesc>
+                        <basePremium>387.77</basePremium>
+                        <deposit>67.88</deposit>
+                        <installmentPremium>35.86</installmentPremium>
+                        <totalPremium>426.48</totalPremium>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>MOT+PNCD+BRK</premiumDesc>
+                        <basePremium>362.88</basePremium>
+                        <deposit>63.5</deposit>
+                        <installmentPremium>33.56</installmentPremium>
+                        <totalPremium>399.1</totalPremium>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>MOT+PNCD+BRK+CHC</premiumDesc>
+                        <basePremium>393.88</basePremium>
+                        <deposit>69.0</deposit>
+                        <installmentPremium>36.42</installmentPremium>
+                        <totalPremium>433.2</totalPremium>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>MOT+PNCD+BRK+CHC+PIB</premiumDesc>
+                        <basePremium>424.88</basePremium>
+                        <deposit>74.39</deposit>
+                        <installmentPremium>39.29</installmentPremium>
+                        <totalPremium>467.29</totalPremium>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>MOT+PNCD+BRK+PIB</premiumDesc>
+                        <basePremium>393.88</basePremium>
+                        <deposit>69.0</deposit>
+                        <installmentPremium>36.42</installmentPremium>
+                        <totalPremium>433.2</totalPremium>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>MOT+PNCD+CHC</premiumDesc>
+                        <basePremium>325.77</basePremium>
+                        <deposit>57.09</deposit>
+                        <installmentPremium>30.12</installmentPremium>
+                        <totalPremium>358.29</totalPremium>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>MOT+PNCD+CHC+PIB</premiumDesc>
+                        <basePremium>356.77</basePremium>
+                        <deposit>62.49</deposit>
+                        <installmentPremium>32.99</installmentPremium>
+                        <totalPremium>392.39</totalPremium>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>MOT+PNCD+PIB</premiumDesc>
+                        <basePremium>325.77</basePremium>
+                        <deposit>57.09</deposit>
+                        <installmentPremium>30.12</installmentPremium>
+                        <totalPremium>358.29</totalPremium>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>BRK</premiumDesc>
+                        <basePremium>68.11</basePremium>
+                        <deposit xsi:nil="true"/>
+                        <installmentPremium xsi:nil="true"/>
+                        <totalPremium xsi:nil="true"/>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>MLP</premiumDesc>
+                        <basePremium>31.0</basePremium>
+                        <deposit xsi:nil="true"/>
+                        <installmentPremium xsi:nil="true"/>
+                        <totalPremium xsi:nil="true"/>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>CHC</premiumDesc>
+                        <basePremium>31.0</basePremium>
+                        <deposit xsi:nil="true"/>
+                        <installmentPremium xsi:nil="true"/>
+                        <totalPremium xsi:nil="true"/>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>PIB</premiumDesc>
+                        <basePremium>31.0</basePremium>
+                        <deposit xsi:nil="true"/>
+                        <installmentPremium xsi:nil="true"/>
+                        <totalPremium xsi:nil="true"/>
+                     </Premium>
+                  </options>
+               </premiums>
+               <excesses soapenc:arrayType="java:Excess[7]">
+                  <Excess>
+                     <description>CompulsoryXs</description>
+                     <excessInPounds>50</excessInPounds>
+                  </Excess>
+                  <Excess>
+                     <description>FireXs</description>
+                     <excessInPounds>100</excessInPounds>
+                  </Excess>
+                  <Excess>
+                     <description>TheftXs</description>
+                     <excessInPounds>250</excessInPounds>
+                  </Excess>
+                  <Excess>
+                     <description>WsRepairXs</description>
+                     <excessInPounds>15</excessInPounds>
+                  </Excess>
+                  <Excess>
+                     <description>WindscreenXs</description>
+                     <excessInPounds>100</excessInPounds>
+                  </Excess>
+                  <Excess>
+                     <description>VoluntaryXs</description>
+                     <excessInPounds>250</excessInPounds>
+                  </Excess>
+                  <Excess>
+                     <description>DriverSpecificXs[Graham Boulton]</description>
+                     <excessInPounds>0</excessInPounds>
+                  </Excess>
+               </excesses>
+               <policyLimitMessages soapenc:arrayType="java:MessageText[4]">
+                  <MessageText>
+                     <message>In-car audio : £1,000</message>
+                  </MessageText>
+                  <MessageText>
+                     <message>Personal accident : £5,000</message>
+                  </MessageText>
+                  <MessageText>
+                     <message>Personal belongings : £150</message>
+                  </MessageText>
+                  <MessageText>
+                     <message>Medical expenses : £300</message>
+                  </MessageText>
+               </policyLimitMessages>
+               <isCourtesyCarIncluded>true</isCourtesyCarIncluded>
+               <isNcdProtected>true</isNcdProtected>
+               <isDocIncluded>true</isDocIncluded>
+               <quoteExpiryDate>2020-06-27T23:59:59.999+01:00</quoteExpiryDate>
+               <vehicleDescription>LANDROVER DISCOVERY TDI,2495cc,5dr,Estate(1996-1998)</vehicleDescription>
+               <webSiteUrl>https://www.esure.com/ctm/motor</webSiteUrl>
+               <keyFactsUrl>http://www.esure.com/pdf/emweb_policy_jul07.pdf</keyFactsUrl>
+               <promotionalMessages xsi:nil="true"/>
+               <onlineDiscount xsi:nil="true"/>
+               <phoneNumbers xsi:nil="true"/>
+               <officeHoursText xsi:nil="true"/>
+               <benefits xsi:nil="true"/>
+               <noQuoteText xsi:nil="true"/>
+               <addInfoMessageText xsi:nil="true"/>
+            </AggMotorResponse>
+         </result>
+      </m:getAggMotorQuoteResponse>
+   </env:Body>
+</env:Envelope>
