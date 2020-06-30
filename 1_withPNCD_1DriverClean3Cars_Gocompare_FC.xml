@@ -1,0 +1,156 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <env:Header/>
+   <env:Body>
+      <m:getAggMotorQuoteResponse xmlns:m="http://www.esure.com/SOA/ibisservice">
+         <result soapenc:arrayType="java:AggMotorResponse[1]" xmlns:java="java:com.esure.busservices.cdm.aggregator.response">
+            <AggMotorResponse>
+               <brand>FC</brand>
+               <quoteReference>1160156152</quoteReference>
+               <coverType>COM</coverType>
+               <coverTypeReq>COM</coverTypeReq>
+               <premiums>
+                  <noOfInstallments>10</noOfInstallments>
+                  <apr>28.8</apr>
+                  <options soapenc:arrayType="java:Premium[11]">
+                     <Premium>
+                        <premiumDesc>MOT+PNCD</premiumDesc>
+                        <basePremium>288.59</basePremium>
+                        <deposit>50.5</deposit>
+                        <installmentPremium>26.69</installmentPremium>
+                        <totalPremium>317.4</totalPremium>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>MOT+PNCD+MLP</premiumDesc>
+                        <basePremium>319.58</basePremium>
+                        <deposit>55.98</deposit>
+                        <installmentPremium>29.55</installmentPremium>
+                        <totalPremium>351.48</totalPremium>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>MOT+PNCD+MLP+BRK</premiumDesc>
+                        <basePremium>387.69</basePremium>
+                        <deposit>67.89</deposit>
+                        <installmentPremium>35.85</installmentPremium>
+                        <totalPremium>426.39</totalPremium>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>MOT+PNCD+MLP+BRK+PIB</premiumDesc>
+                        <basePremium>411.69</basePremium>
+                        <deposit>72.09</deposit>
+                        <installmentPremium>38.07</installmentPremium>
+                        <totalPremium>452.79</totalPremium>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>MOT+PNCD+MLP+PIB</premiumDesc>
+                        <basePremium>343.58</basePremium>
+                        <deposit>60.18</deposit>
+                        <installmentPremium>31.77</installmentPremium>
+                        <totalPremium>377.88</totalPremium>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>MOT+PNCD+BRK</premiumDesc>
+                        <basePremium>356.69</basePremium>
+                        <deposit>62.5</deposit>
+                        <installmentPremium>32.98</installmentPremium>
+                        <totalPremium>392.3</totalPremium>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>MOT+PNCD+BRK+PIB</premiumDesc>
+                        <basePremium>380.69</basePremium>
+                        <deposit>66.69</deposit>
+                        <installmentPremium>35.2</installmentPremium>
+                        <totalPremium>418.69</totalPremium>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>MOT+PNCD+PIB</premiumDesc>
+                        <basePremium>312.58</basePremium>
+                        <deposit>54.78</deposit>
+                        <installmentPremium>28.9</installmentPremium>
+                        <totalPremium>343.78</totalPremium>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>BRK</premiumDesc>
+                        <basePremium>68.11</basePremium>
+                        <deposit xsi:nil="true"/>
+                        <installmentPremium xsi:nil="true"/>
+                        <totalPremium xsi:nil="true"/>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>MLP</premiumDesc>
+                        <basePremium>31.0</basePremium>
+                        <deposit xsi:nil="true"/>
+                        <installmentPremium xsi:nil="true"/>
+                        <totalPremium xsi:nil="true"/>
+                     </Premium>
+                     <Premium>
+                        <premiumDesc>PIB</premiumDesc>
+                        <basePremium>24.0</basePremium>
+                        <deposit xsi:nil="true"/>
+                        <installmentPremium xsi:nil="true"/>
+                        <totalPremium xsi:nil="true"/>
+                     </Premium>
+                  </options>
+               </premiums>
+               <excesses soapenc:arrayType="java:Excess[7]">
+                  <Excess>
+                     <description>CompulsoryXs</description>
+                     <excessInPounds>50</excessInPounds>
+                  </Excess>
+                  <Excess>
+                     <description>FireXs</description>
+                     <excessInPounds>100</excessInPounds>
+                  </Excess>
+                  <Excess>
+                     <description>TheftXs</description>
+                     <excessInPounds>250</excessInPounds>
+                  </Excess>
+                  <Excess>
+                     <description>WsRepairXs</description>
+                     <excessInPounds>15</excessInPounds>
+                  </Excess>
+                  <Excess>
+                     <description>WindscreenXs</description>
+                     <excessInPounds>100</excessInPounds>
+                  </Excess>
+                  <Excess>
+                     <description>VoluntaryXs</description>
+                     <excessInPounds>250</excessInPounds>
+                  </Excess>
+                  <Excess>
+                     <description>DriverSpecificXs[Graham Boulton]</description>
+                     <excessInPounds>0</excessInPounds>
+                  </Excess>
+               </excesses>
+               <policyLimitMessages soapenc:arrayType="java:MessageText[4]">
+                  <MessageText>
+                     <message>In-car audio : £1,000</message>
+                  </MessageText>
+                  <MessageText>
+                     <message>Personal accident : £5,000</message>
+                  </MessageText>
+                  <MessageText>
+                     <message>Personal belongings : £150</message>
+                  </MessageText>
+                  <MessageText>
+                     <message>Medical expenses : £300</message>
+                  </MessageText>
+               </policyLimitMessages>
+               <isCourtesyCarIncluded>true</isCourtesyCarIncluded>
+               <isNcdProtected>true</isNcdProtected>
+               <isDocIncluded>true</isDocIncluded>
+               <quoteExpiryDate>2020-06-27T23:59:59.999+01:00</quoteExpiryDate>
+               <vehicleDescription>LANDROVER DISCOVERY TDI,2495cc,5dr,Estate(1996-1998)</vehicleDescription>
+               <webSiteUrl>https://www.firstalternative.com/gocompare/motor</webSiteUrl>
+               <keyFactsUrl>http://firstalternative.com/pdf/fa_policy_jan07.pdf</keyFactsUrl>
+               <promotionalMessages xsi:nil="true"/>
+               <onlineDiscount xsi:nil="true"/>
+               <phoneNumbers xsi:nil="true"/>
+               <officeHoursText xsi:nil="true"/>
+               <benefits xsi:nil="true"/>
+               <noQuoteText xsi:nil="true"/>
+               <addInfoMessageText xsi:nil="true"/>
+            </AggMotorResponse>
+         </result>
+      </m:getAggMotorQuoteResponse>
+   </env:Body>
+</env:Envelope>
